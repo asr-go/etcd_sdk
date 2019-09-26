@@ -8,7 +8,7 @@
 package main
 
 import (
-  etcd_sdk "github.com/surh-go/etcd_sdk"
+  etcd_sdk "github.com/asr-go/etcd_sdk"
 )
 
 func main() {
