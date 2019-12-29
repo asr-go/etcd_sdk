@@ -1,6 +1,6 @@
-module github.com/asr-go/etcd_sdk
+module github.com/asr-go/etcdsdk
 
-go 1.12
+go 1.13
 
 require (
 	github.com/coreos/etcd v3.3.17+incompatible

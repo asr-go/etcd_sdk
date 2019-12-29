@@ -8,12 +8,12 @@
 package main
 
 import (
-  etcd_sdk "github.com/asr-go/etcd_sdk"
+  etcdsdk "github.com/asr-go/etcdsdk"
 )
 
 func main() {
   cnf := new(interface{})
-  loader := etcd_sdk.EtcdLoader{}
+  loader := etcdsdk.EtcdLoader{}
   loader.NewConfig(cnf)
 }
 ```
